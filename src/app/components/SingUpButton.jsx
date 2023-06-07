@@ -9,7 +9,14 @@ const SingUpButton = () => {
     return (
         <Button 
         variant="outlined"
-        style={{color:'black', border:'solid 0.2rem rgb(254,243,253)', textTransform: 'none', maxHeight:'1.5rem', maxWidth: '5rem'}}
+        style={{
+            color:'black', 
+            border:'solid 0.2rem rgb(254,243,253)', 
+            textTransform: 'none', 
+            maxHeight:'1.5rem', 
+            maxWidth: '5rem',
+            fontSize: "0.9vw"
+            }}
         className={inter.className}
         size="small"
         >
