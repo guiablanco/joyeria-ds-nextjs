@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 //styles
-import styles from './Navigation.module.css';
+import styles from './Navigation.module.scss';
 
 //Imagen Logo
 import SD_Logo from '../../assets/header/ds-logo.png';
@@ -19,7 +19,7 @@ const links = [
     route: '/gallery'
     },
     {
-    label: 'Quienes Somos',
+    label: 'Sobre Nosotros',
     route: '/about'
     }
 ]

@@ -13,9 +13,10 @@ const SingUpButton = () => {
             color:'black', 
             border:'solid 0.2rem rgb(254,243,253)', 
             textTransform: 'none', 
-            maxHeight:'1.5rem', 
-            maxWidth: '5rem',
-            fontSize: "0.75rem"
+            height:'1.6rem', 
+            width: '5rem',
+            fontSize: "0.75rem",
+            padding: '0'
             }}
         className={inter.className}
         size="small"
