@@ -52,7 +52,6 @@ const Navbar = () => {
                                 <LoginButton />
                             </div>
                             <div>
-
                                 <SingUpButton/>
                             </div>
                         </li>
