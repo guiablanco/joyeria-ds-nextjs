@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .navigation a:hover {
@@ -24,5 +24,4 @@
 .botones {
     display: flex;
     margin-right: 1rem;
-    
 }

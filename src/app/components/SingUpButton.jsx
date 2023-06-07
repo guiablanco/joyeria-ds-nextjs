@@ -15,7 +15,7 @@ const SingUpButton = () => {
             textTransform: 'none', 
             maxHeight:'1.5rem', 
             maxWidth: '5rem',
-            fontSize: "0.9vw"
+            fontSize: "0.75rem"
             }}
         className={inter.className}
         size="small"
