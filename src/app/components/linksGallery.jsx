@@ -21,11 +21,11 @@ const LinksGallery = () => {
     return (
         <section>
             <div className='cards-gallery'>
-                <Card className='card' sx={{ maxWidth: 300, minWidth: 100 }}>
+                <Card className='card' sx={{ maxWidth: 400, minWidth: 200 }}>
                     <CardActionArea >
                         <Image 
                             component="img"
-                            height="450"
+                            height="500"
                             src={collarPortada}
                             alt="Collares Portada"
                         />
@@ -39,11 +39,11 @@ const LinksGallery = () => {
                         </CardContent>
                     </CardActionArea>
                 </Card>
-                <Card className='card' sx={{ maxWidth: 300, minWidth: 100 }}>
+                <Card className='card' sx={{ maxWidth: 400, minWidth: 200 }}>
                     <CardActionArea>
                         <Image
                             component="img"
-                            height="450"
+                            height="500"
                             src={anilloPortada}
                             alt="Anillos Portada"
                         />
@@ -60,12 +60,12 @@ const LinksGallery = () => {
 
                 </div>
                 <div className='cards-gallery'>
-                    <Card className='card' sx={{ maxWidth: 300, minWidth: 100 }}>
+                    <Card className='card' sx={{ maxWidth: 400, minWidth: 200 }}>
                         <CardActionArea>
                             <Image
                                 
                                 component="img"
-                                height="450"
+                                height="500"
                                 src={pulseraPortada}
                                 alt="Pulseras Portada"
                             />
@@ -80,11 +80,11 @@ const LinksGallery = () => {
                         </CardActionArea>
                     </Card>
                     
-                <Card className='card' sx={{ maxWidth: 300, minWidth: 100 }}>
+                <Card className='card' sx={{ maxWidth: 400, minWidth: 200 }}>
                     <CardActionArea>
                         <Image
                             component="img"
-                            height="450"
+                            height="500"
                             src={arosPortada}
                             alt="green iguana"
                         />
@@ -98,11 +98,13 @@ const LinksGallery = () => {
                         </CardContent>
                     </CardActionArea>
                 </Card>
-                <Card className='card' sx={{ maxWidth: 300, minWidth: 100 }}>
+            </div>
+            <div className='cards-gallery'>
+                <Card className='card' sx={{ maxWidth: 400, minWidth: 200 }}>
                     <CardActionArea>
                         <Image
                             component="img"
-                            height="450"
+                            height="500"
                             src={conjuntoPortada}
                             alt="Conjuntos Portada"
                         />
@@ -116,6 +118,7 @@ const LinksGallery = () => {
                         </CardContent>
                     </CardActionArea>
                 </Card>
+
             </div>
 
         </section>
