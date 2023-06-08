@@ -37,7 +37,7 @@ const Navbar = () => {
                             height={60}
                             alt= 'Logo'
                             quality={100}
-                            style={{borderRadius:'100%', marginLeft:'1rem'}}
+                            style={{borderRadius:'100%', marginLeft:'0.2rem'}}
                             /> 
                         </Link>
 
