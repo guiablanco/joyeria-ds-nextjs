@@ -13,7 +13,7 @@ const LoginButton = () => {
             color:'black', 
             border:'solid 0.2rem rgb(254,243,253)', 
             textTransform: 'none', 
-            height:'1.6rem', 
+            height:'1.65rem', 
             maxWidth: '5rem',
             fontSize: "0.75rem"
             }}
