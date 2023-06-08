@@ -1,0 +1,38 @@
+.header {
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 0.2rem;
+    margin: 10px 0;
+    border: solid 0.7rem rgb(255,241,253);
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2) ;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1rem;
+
+
+    @media (max-width: 600px) {
+                  font-size: 8px; /* Tamaño de fuente en pantallas pequeñas */
+        }
+    
+    @media (max-width: 300px) {
+          font-size: 5px; /* Tamaño de fuente en pantallas pequeñas */
+        }
+    }
+
+
+.navigation a:hover {
+    color: #b8b7b7;
+    text-decoration: underline #b8b7b7;
+}
+
+.botones {
+    display: flex;
+    margin-right: 2px;
+}
+
