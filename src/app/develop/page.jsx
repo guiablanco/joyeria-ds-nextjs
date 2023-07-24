@@ -4,7 +4,7 @@ import LinksGallery from '../components/linksGallery';
 const Develop = () => {
     return (
         <div>
-            <LinksGallery/>
+            <h1>Página para probar cosas</h1>
         </div>
     );
 }
