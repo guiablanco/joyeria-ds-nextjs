@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 //styles
-import styles from './Navigation.module.scss';
+import styles from './../../styles/Navigation.module.scss';
 
 //Imagen Logo
 import SD_Logo from '../../assets/header/ds-logo.png';
