@@ -16,6 +16,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar></Navbar>
         {children}
+        <div>
+          <p>Datos de contacto proximamente</p>
+        </div>
       </body>
     </html>
   )

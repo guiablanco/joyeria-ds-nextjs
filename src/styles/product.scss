@@ -1,0 +1,20 @@
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.rings {
+    width: 700px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.ring-element {
+    background-color: white;
+    width: 200px;
+    height: 450px;
+    margin: 10px;
+}
