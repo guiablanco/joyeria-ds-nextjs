@@ -22,7 +22,7 @@ const RingsProductsList = () => {
                             <h3 className="name">{product.name}</h3>
                             <p className="description">{product.description}</p>
                             <p className="price">Precio: $ {product.price}</p>
-                            <button className="add">Añadir al carrito</button>
+                            <button className="add">+ Añadir al carrito</button>
                         </li>
                     ))
                 }

@@ -17,4 +17,39 @@
     width: 200px;
     height: 450px;
     margin: 10px;
+    position: relative;
+}
+
+.name {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.description {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+
+}
+
+.price {
+    font-weight: 700;
+    margin-left: 5px;
+
+}
+
+.add {
+    background-color: #FEF3FC;
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+    border-radius: 9%;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
 }
